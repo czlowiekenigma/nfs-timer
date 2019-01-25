@@ -1,10 +1,10 @@
 (function() {
-  let seconds = 3600;
+  let seconds = 1800;
   
   setInterval(function() {
     seconds--;
-    if(seconds == 3594) {
-      seconds = 3600;
+    if(seconds == 1794) {
+      seconds = 1800;
     }
     
     let h = Math.floor(seconds / 3600);
